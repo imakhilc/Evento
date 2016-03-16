@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E9EC"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.evento.Feedback">
+    <Button
+        android:id="@+id/close"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textSize="13.0dip"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:id="@+id/t1"
+        android:background="@color/about"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginBottom="10dip"
+        android:text="FEEDBACK" />
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/name"
+        android:background="#fff"
+        android:hint="Name"
+        android:textSize="14dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/mail"
+        android:background="#fff"
+        android:hint="Email"
+        android:textSize="14dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/message"
+        android:background="#fff"
+        android:hint="Message"
+        android:textSize="14dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_weight="1"
+            android:text="SEND MAIL"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:id="@+id/send"
+            android:background="@drawable/about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

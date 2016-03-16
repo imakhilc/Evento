@@ -1,0 +1,100 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Events" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/events</item>
+        <item name="colorPrimaryDark">@color/events1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Schedule" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/schedule</item>
+        <item name="colorPrimaryDark">@color/schedule1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Results" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/results</item>
+        <item name="colorPrimaryDark">@color/results1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Rules" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/rules</item>
+        <item name="colorPrimaryDark">@color/rules1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Galery" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/photo</item>
+        <item name="colorPrimaryDark">@color/photo1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Notifications" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/notifications</item>
+        <item name="colorPrimaryDark">@color/notifications1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Dedications" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/dedications</item>
+        <item name="colorPrimaryDark">@color/dedications1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="About" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/about</item>
+        <item name="colorPrimaryDark">@color/about1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTabText</item>
+        <item name="tabSelectedTextColor">#fff</item>
+    </style>
+
+    <style name="MyCustomTabText" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#eee</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <!--item name="android:windowCloseOnTouchOutside">true</item-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AppTheme.CustomOne">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

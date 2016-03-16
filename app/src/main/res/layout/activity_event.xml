@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E9EC"
+    tools:context="com.evento.Event">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/logo_pic"
+        android:background="#00A7F4"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/t1"
+        android:background="#fff"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="We have taken the initiative to draft the arts festival declaration on 'Dwani' , that has been  set up by CET College Union. Festivals in campus are indeed exceptional moments where , art meets students and large number of students meet art. It is an exceptonal moment for the artists - actors , dancers , writers and musicians to create and to present an existing work within a specific context. It is characteristic to festival to stage exceptional pieces of art to the public , to present new art forms , to supply new creative possibilities."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/t2"
+        android:background="#fff"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:text="The world is fast changing. Time has changed. Our life style has changed. Our habits are also fast changing. It is only with amazement that one can watch the way in which cyber-technology is creating rapid ripples in our day to day life. Gone are the days of the television, the celluliod movies and cell phones, now it is the age of direct to home digital viewing, 3D Digital Movies, LED's, 'SmartPhones' and a hundres and one other gizmos.\n\nAmazing! Definitely as time changes, as science progresses we have to move along with that, flow in the direction of the tide that flows, otherwise we are branded as stone-age savages, cave men and what not.\n\nThat's exactly the reason behind 'Evento'.  Yah.. so we take this oppertunity to prove that we have started moving."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

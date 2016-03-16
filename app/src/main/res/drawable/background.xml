@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item>
+        <shape>
+            <solid android:color="#f00" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="top" android:src="@drawable/back1">
+        </bitmap>
+    </item>
+</layer-list>

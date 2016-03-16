@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="normal">#3F51B5</color>
+
+    <color name="events">#0AA6D9</color>
+    <color name="events1">#077ca3</color>
+    <color name="schedule">#257CBF</color>
+    <color name="schedule1">#1c5d8f</color>
+    <color name="results">#5254AB</color>
+    <color name="results1">#3d3f80</color>
+    <color name="rules">#A535A5</color>
+    <color name="rules1">#7c287c</color>
+    <color name="photo">#de5cad</color>
+    <color name="photo1">#a64582</color>
+    <color name="notifications">#ED5774</color>
+    <color name="notifications1">#b24157</color>
+    <color name="dedications">#EF3F53</color>
+    <color name="dedications1">#b32f3e</color>
+    <color name="about">#F2684C</color>
+    <color name="about1">#b54e39</color>
+</resources>

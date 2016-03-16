@@ -1,0 +1,69 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#E5E9EC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/stage13"
+                android:text="MAIN STAGE"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:background="@color/schedule"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <LinearLayout
+                android:id="@+id/three1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></LinearLayout>
+            <TextView
+                android:id="@+id/stage23"
+                android:text="SECOND STAGE"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:background="@color/schedule"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <LinearLayout
+                android:id="@+id/three2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></LinearLayout>
+            <TextView
+                android:id="@+id/stage33"
+                android:text="THIRD STAGE"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:background="@color/schedule"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <LinearLayout
+                android:id="@+id/three3"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

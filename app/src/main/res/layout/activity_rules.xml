@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E9EC"
+    android:orientation="vertical"
+    tools:context="com.evento.About">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:background="@color/rules"
+        android:textColor="#fff"
+        android:text="GENERAL RULES"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+        <TextView
+            android:text="The right to participate in the competition of college arts is restricted to the full-time and part-time students of constituent departments."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="The overall chare of Arts and the programmes related rests with the General Secretary of College Union assisted by the Convener, Joint convener."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Participants must bring their own musical instruments, costumes etc or other special items required for different events."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="An item in the competition will be conducted only if there is a minimum of three entries for solo items and three for group items. The competition for an item will be conducted even if the minimum required is not met due to the withdrawal of entries."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="The college union will arrange stage and stage requirements. Special setting if required for drama, skit, etc will have to be arranged by the participating teams."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="No makeup will be provided. Make up man, materials etc will have to be arranged by the participating teams."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Only for the following items external help (background music, lighting etc) at performance only can be sought if not specified otherwise. Solo dance, group dance, oppana, mime etc."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="A rolling trophy instituted by the College Union will be awarded to the winning team. Further there will be another trophy for the runner up team."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Each individual can participate in 5 group items and 5 individual items."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="POINTS AWARDED\n\nIndividual items:\n1st place    : 5 points\n2nd place   : 3 points\n3rd place    : 1 points\n\n
+Group items:\n1st place    : 10 points\n2nd place   : 6 points\n3rd place    : 3 points"
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Steering committee headed by the General Convener will be the superior body and the members of the participating batch will have to strictly abide by the rules and regulations laid down from time to time by the steering committee of the Union."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="If any dispute regarding the results of the competition or such other matter arises the matter shall be referred to the Jury of Appeal and their decision shall be final."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="THE JURY OF APPEAL\n\nConvener\nJoint Convener\nChairman\nGeneral Secretary\nArts Secretary\nVice Chairman\nGeneral Convener and Joint Convener of Arts"
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Complaints if any may be forwarded to the General Convener in writing through the concerned staff member who is in charge of the team within an hour after the announcement of the results. The charge of an appeal will be ₹100."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Competition will be judged by the panel of judges appointed by the College Union. Each panel will have a minimum of two members except for quiz."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="If a substitute wishes to take part in an item it should be reported to the program committee by the batch captains, atleast one hour before the commencement of the competition."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Disqualification for violation of eligibility rules. Any disqualification of a participant on the ground of ineligibility will result in the automatic disqualification of the contingent for that arts festival."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="The time schedule and the general rules of the events can be changed by the steering committee without prior notice."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Audio cassettes can be used for all the dance items and organizers will not be held responsible, in case of any audio failure or low audible quality."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="An individual can participate in five numbers of individual items and five number of group items."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Performances that exceed given time limit for each events will be valued by the decision of steering committee."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="The programme Committee may reschedule and pre announce programmes on account of any sudden development."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Any further changes to the rules can be made without notice by the College Union."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="NOTE\n\nIn case of tie for the above titles, the number of 1st places won by the participants will be considered.\n\nFurther questions if any will be settled considering places won in group event.\n\nIn case, the performance exceeds the time limit the curtain will be put down and the micro phone will be cut off."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:background="@color/rules"
+            android:textColor="#fff"
+            android:text="DANCE"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="SOLO DANCE FOLK\n\nTwo participants per batch.\nOnly non-film songs are allowed.\nThe dance can be of primitive or folk but not a classical one.\nMaximum time allowed for performance is 10 minutes and stage setting is 2 minutes."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="ADAPT TUNE\n\nThe maximum time allowed per participant is 3 minutes.\nThree different tunes or songs will be given to the participant on the spot.\nThe participant should have to dance according to the changes in tune.\nOne song will last for one minute.\nFive participants per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="GROUP DANCE\n\nThere is no restriction seeking external help for the background music.\nThe participating team will be responsible for removal of the sets, properties etc immediately after the completion of the performance.\nJudgment based on rhythm, formation, expression, costumes, makeup, co-ordination and overall effects.\nMaximum number of participants is 10 and not less than 6.\nMaximum number of accompanists is 3.\nMaximum time allotted for stage setting is 2 minutes and performance is 10 minutes.\nMaximum 3 teams per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="OPPANA (MALE OR FEMALE)\n\nThere is no restriction seeking external help for the background music.\nSeparate competitions will be held for oppana-male and oppana-female.\nMaximum number of participants is 9 and accompanists is 2.\nOther rules are same as that of group dance.\nOnly one team per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="THIRUVATHIRAKKALI\n\nThere is no restriction seeking external help for the background music.\nMaximum number of participants is 8 and accompanists is 2.\nOther rules are same as that of group dance.\nOnly one team per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="STEP IN SYNCHRO\n\nMaximum number of participants is 6.\nThere will be a separating screen.\nJudgment based on rhythm, formation, expression, costumes and synchronization.\nMaximum time allotted is 6 minutes.\nStage settings are not allotted.\nFour teams per batch are allowed.\nThere is no restriction seeking external help for the background music."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="WESTERN DANCE\n\nThere is no restriction seeking external help for the background music.\nThe participating team will be responsible for removal of the sets, properties etc immediately after the completion of the performance.\nJudgment based on rhythm, formation, expression, costumes, makeup, co-ordination and overall effects.\nMaximum number of participants is 12 and not less than 4.\nMaximum time allotted for stage setting is 2 minutes and performance is 10 minutes.\nMaximum three teams per batch.\nSong should be in English."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="VIDEO CHOREOGRAPHY\n\nThere is no restriction seeking external help.\nThe participating team will be responsible for removal of the sets, properties etc immediately after the completion of the performance.\nJudgment based on rhythm, formation, expression, costumes, makeup, co-ordination and overall effects.\nMaximum number of participants is 10 and not less than 4.\nMaximum time allotted for stage setting is 5 minutes and performance is 8 minutes.\nMaximum three teams per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="NOSTALGIA\n\nSongs used should be from films released before 1990’s.\nThere is no restriction seeking external help.\nMaximum number of participants is 10 and not less than 6.\nPerformance is limited to a time of 8 minutes.\nThe participating team will be responsible for removal of the sets, properties etc immediately after the completion of the performance.\nJudgment based on rhythm, formation, expression, costumes, makeup, co-ordination and overall effects.\nMaximum three teams per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="KOLKKALI\n\nThere is no restriction seeking external help.\nThe participating team will be responsible for removal of the sets, properties etc immediately after the completion of the performance.\nJudgment based on rhythm, formation, expression, costumes, makeup, co-ordination and overall effects.\nMaximum time allotted is 10 minutes\nMaximum 8 participants per batch.\nOnly one team per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:background="@color/rules"
+            android:textColor="#fff"
+            android:text="MUSIC"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="LIGHT MUSIC (MALE AND FEMALE)\n\nSeparate competition will be there for male and female participants.\nMaximum 5 participants per batch are allowed for each.\nThe duration of the song shall not exceed five minutes.\nJudgment will be based on the qualities like swara, thala, composition, general impression etc."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="CLASSICAL MUSIC\n\nMaximum number of participants is 3.\nEvent should be presented in Carnatic style only.\nMaximum time allowed for performance is ten minutes.\nFilm songs are not allowed.\nJudgment will be based on the qualities like swara, thala, composition, general impression etc."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="WESTERN VOCAL SOLO\n\nThe number of participants is 5 per batch.\nThe duration of the song shall not exceed five minutes.\nThe language of the song should be English only.\nJudgment will be based on the qualities like rhythm, coordination, composition, general impression etc."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="GROUP MUSIC\n\nNo film song should be presented as group song.\nThe group song should be taken from Indian origin which can be of any regional language.\nJudgment will be based on the qualities of singing only and not on the makeup, costumes and actions of the team.\nMaximum number of singers in a group can be six.\nMaximum time allotted is ten minutes.\nOnly one group is allowed per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="WESTERN GROUP SONG\n\nThe language of the song should be English only.\nMaximum number of members in a team should not be more than 8.\nMusical instruments can be used.\nJudgment will be based on the qualities of singing and orchestra only and not on makeup, costumes and actions of the team\nMaximum time allotted is ten minutes.\nMaximum 2 groups per batch.\nKaraoke not allowed."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="GANAMELA\n\nMaximum number of participants shall be ten.\nKaraoke can be used.\nThe time allotted for the performance is twenty five minutes.\nFour songs of any language should be performed. One duet song and a chain song is a must.\nOnly one team per batch is allowed."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="MAPPILAPPAATTU (MALE AND FEMALE)\n\nThere will be separate competition for male and female.\nThe duration of the song shall not exceed ten minutes.\nJudgment will be based on the qualities like swara, thala, composition, general impression etc.\nMaximum number of participants is 5 per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="NAADANPAATTU\n\nThe group can consist of all boys or all girls or combined.\nThe duration of the performance will be a minimum for 6 minutes and a maximum for 12 minutes.\nThis does not include setting time which shall not be more than 2 minutes.\n Film songs are not permitted and the teams must present folk songs in Malayalam.\nOnly one group per batch is allowed."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="DUET SONG\n\nFour teams per batch is allowed, consist of a boy and a girl.\nFilm songs and karaoke can be used.\nTime limit is 8 minutes."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:background="@color/rules"
+            android:textColor="#fff"
+            android:text="THEATRE"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="DRAMA\n\nThe duration of the play should not exceed 30 minutes.\nFor stage setting and removal of properties up to ten minutes will be given.\nThe number of participants should not exceed nine and that of accompanists is five.\nExternal help for light and background music may be sought.\nThe medium of the drama can be Malayalam or English.\nJudgment will be on the basis of the qualities of the play like theme, work on acting, stagecraft, total design, general impression etc.\nThe team should give four copies of the script along with the language of presentation to the programme committee on the day of event.\nTwo teams can be allowed."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="FANCYDRESS\n\nMaximum time allowed for performance is two minutes.\nMaximum 5 participants per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="MONO ACT\n\nNo accompanist allowed.\nJudgment based on acting work and general impression.\nTime allotted for performance is 5 minutes.\nMaximum 4 participants per batch."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="MIMICRY\n\nParticipants may mimic sound of machines and speeches of well-known persons etc including film personalities.\nOnly 4 entry per batch.\nMarking will be based on :\nSkill imitating.\nVariety of sounds and voices imitate.\nPresentation.\nTime limit is 7 minutes"
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="MIME\n\nThree entries per batch will be entertained.\nMaximum number of participants allowed to participate in this item is six.\nJudgment will most likely be based on the qualities like idea, creativity of presentation, use of make-up, music and general impression.\nDuration of performance shall be maximum of 5 minutes."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="SKIT (MALAYALAM AND ENGLISH)\n\nMaximum number of participants allowed to participate in this item is six.\nMaximum time allowed for performance is 10 minutes.\nUse of make-up, drapery and background music is allowed. No personal remarks, aspersions, character assassination etc. is allowed.\nParticipating team should submit three copies of the synopsis of the theme of skit, along with language of presentation on the day of registration.\nThe item will be judged basically on the qualities like theme, work on acting, stage craft, design and general impression.\nVulgarity or bitter insinuations in presentation should be avoided. Only innocent satire or humor is expected.\nMaximum three teams per batch can be allowed."            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="KATHAPRASANGAM\n\nMaximum number of accompanists shall not be more than 4.\nPerformance minimum of 10 minutes and maximum of 20 minutes.\nMaximum 3 teams per batch is allowed."
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="TABLEAUX\n\nLight arrangement should not be handled by anybody other than the students of concerned team however external help for background music may be sought for.\nMaximum number of participants can be 7, not less than 4.\nMaximum 2 teams per batch.\nMaximum time allowed 7 min including stage settings."            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:textColor="#666"
+            android:textSize="13dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
