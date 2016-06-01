@@ -1,5 +1,5 @@
 # Evento
 
-Evento is and Android app which I used for our college arts evet.
+Evento is and Android app which I used for our college arts event.
 
 Get it on Google Play: https://goo.gl/VVAwR8
